@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		BDF43BE4234224DB0026AC99 /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF43BE3234224DB0026AC99 /* Tips.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		BDF43BDE234224DB0026AC99 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,8 +19,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BDE306992342361900D00518 /* IteratorPattern_1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IteratorPattern_1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BDE3069B23423A0F00D00518 /* IteratorPattern_2-0.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "IteratorPattern_2-0.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BDE3069C23423A0F00D00518 /* IteratorPattern_2-1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "IteratorPattern_2-1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDF43BE0234224DB0026AC99 /* libTips.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTips.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDF43BE3234224DB0026AC99 /* Tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +55,9 @@
 		BDF43BE2234224DB0026AC99 /* Tips */ = {
 			isa = PBXGroup;
 			children = (
-				BDF43BE3234224DB0026AC99 /* Tips.swift */,
+				BDE306992342361900D00518 /* IteratorPattern_1.playground */,
+				BDE3069B23423A0F00D00518 /* IteratorPattern_2-0.playground */,
+				BDE3069C23423A0F00D00518 /* IteratorPattern_2-1.playground */,
 			);
 			path = Tips;
 			sourceTree = "<group>";
@@ -120,7 +120,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF43BE4234224DB0026AC99 /* Tips.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
