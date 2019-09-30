@@ -22,6 +22,8 @@
 		BDE306992342361900D00518 /* IteratorPattern_1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IteratorPattern_1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDE3069B23423A0F00D00518 /* IteratorPattern_2-0.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "IteratorPattern_2-0.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDE3069C23423A0F00D00518 /* IteratorPattern_2-1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "IteratorPattern_2-1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BDE3069D2342404700D00518 /* Delegate.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Delegate.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BDE3069E2342447F00D00518 /* ClosureCallback.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ClosureCallback.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDF43BE0234224DB0026AC99 /* libTips.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTips.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -58,6 +60,8 @@
 				BDE306992342361900D00518 /* IteratorPattern_1.playground */,
 				BDE3069B23423A0F00D00518 /* IteratorPattern_2-0.playground */,
 				BDE3069C23423A0F00D00518 /* IteratorPattern_2-1.playground */,
+				BDE3069D2342404700D00518 /* Delegate.playground */,
+				BDE3069E2342447F00D00518 /* ClosureCallback.playground */,
 			);
 			path = Tips;
 			sourceTree = "<group>";
