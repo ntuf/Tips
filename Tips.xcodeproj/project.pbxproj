@@ -25,6 +25,7 @@
 		BDE3069D2342404700D00518 /* Delegate.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Delegate.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDE3069E2342447F00D00518 /* ClosureCallback.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ClosureCallback.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDE3069F2342EB3200D00518 /* SingletonPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SingletonPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BDE306A02342FE2000D00518 /* AdapterPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AdapterPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDF43BE0234224DB0026AC99 /* libTips.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTips.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -64,6 +65,7 @@
 				BDE3069D2342404700D00518 /* Delegate.playground */,
 				BDE3069E2342447F00D00518 /* ClosureCallback.playground */,
 				BDE3069F2342EB3200D00518 /* SingletonPattern.playground */,
+				BDE306A02342FE2000D00518 /* AdapterPattern.playground */,
 			);
 			path = Tips;
 			sourceTree = "<group>";
