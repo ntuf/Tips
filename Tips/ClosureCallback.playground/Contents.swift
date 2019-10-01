@@ -44,8 +44,9 @@ class B {
     private var count = 0
 
     func doSomething() {
-        a = A(closure: { [weak self] in // selfを弱参照する
+        a = A(closure: { [weak self] in // クロージャがself(B)を弱参照する
             self?.count += 1
+            print("count")
         })
     }
 
@@ -112,3 +113,29 @@ class Bar2 {
 
 let bar2 = Bar2()
 bar2.bar()
+
+print("--------------------------------------")
+
+class Person  {
+    var closure:(()->Void)?
+
+    func someFunc() {
+        self.someFuncAsync {[weak self] in
+            print(self!)
+        //selfが弱参照のため、ここがコールされる前にselfが解放されていたら、この時点でself == nil。[unowned self]でもよいがそれだと、self == nilだった時にクラッシュする
+        }
+    }
+
+    private func someFuncAsync(_ closure:@escaping (()->Void)) {
+        self.closure = closure //closureをメンバ変数で持たないでも回避可能
+    }
+
+    deinit {
+        print("deinit")
+        // person = nilで（どこにも参照されなくなるんので）コールされる
+    }
+}
+
+var person:Person? = Person()
+person?.someFunc()
+person = nil
