@@ -34,6 +34,11 @@ a.method2()
 
 print("--------------------------------------")
 //■委譲を利用した場合
+//　　（Targetをインスタンス変数として持つ）
+//
+// 参考) クラスの継承（is-a関係）
+// 参考) 委譲（has-a関係）
+
 
 class Target2 {
     func method1() {
@@ -85,3 +90,7 @@ protocol MyProtocol3 {
 
 let t = Target3()
 t.method2()
+
+
+//swiftでのAdapterパターンはextensionで実現できると
+//とりあえず考えておくことにする
